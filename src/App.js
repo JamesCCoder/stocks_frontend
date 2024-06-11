@@ -3,6 +3,7 @@ import axios from 'axios';
 import './App.css';
 
 import Stockdetail from './Stockdetail';
+import Fearandgreed from './Fearandgreed';
 
 function App() {
   const [fetchFolderName, setFetchFolderName] = useState('');
@@ -43,6 +44,7 @@ function App() {
 
   return (
     <div className="App">
+      <Fearandgreed />
       <header className="App-header">
         <h1>Stock Data Downloader</h1>
         <input
